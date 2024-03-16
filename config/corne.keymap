@@ -9,30 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        lower_qwerty {
-            if-layers = <0 2>;
-            then-layer = <2>;
-        };
-
-        raise_qwerty {
-            if-layers = <0 3>;
-            then-layer = <3>;
-        };
-
-        lower_colmak {
-            if-layers = <1 2>;
-            then-layer = <2>;
-        };
-
-        raise_colmak {
-            if-layers = <1 3>;
-            then-layer = <3>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -56,7 +32,7 @@
 &kp TAB    &kp Q  &kp W  &kp F  &kp P  &kp B       &kp J    &kp L      &kp U      &kp Y    &kp SEMI  &kp BSLH
 &kp LCTRL  &kp A  &kp R  &kp S  &kp T  &kp G       &kp M    &kp N      &kp E      &kp I    &kp O     &kp APOS
 &kp LSHFT  &kp Z  &kp V  &kp D  &kp C  &kp X       &kp K    &kp H      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                         &mo 3  &mo 2  &kp LALT    &kp ESC  &kp SPACE  &kp LGUI
+                         &trans  &trans  &kp LALT    &kp ESC  &kp SPACE  &kp LGUI
             >;
         };
 
