@@ -70,7 +70,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &macro_e_deux_points  &macro_e_accent_aigu   &macro_e_accent_circon &macro_e_o    &trans    &trans  &macro_e_accent_grave  &macro_c_cedille       &macro_a_accent  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
